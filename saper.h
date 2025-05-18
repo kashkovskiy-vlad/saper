@@ -4,6 +4,7 @@
 
 #include <QMainWindow>
 
+
 class saper : public QMainWindow
 {
     Q_OBJECT
