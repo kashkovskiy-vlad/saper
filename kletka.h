@@ -1,9 +1,11 @@
 #ifndef KLETKA_H
 #define KLETKA_H
 
+#include <QPushButton>
 
-class Kletka
+class Kletka:public QPushButton
 {
+    Q_OBJECT
 public:
     Kletka();
 };
